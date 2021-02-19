@@ -58,7 +58,7 @@ for epoch in np.arange(NUM_EPOCHS):
         auto_loss = auto_criterion(reconstructed_images, images)
 
         auto_loss.backward()
-        auto_optimizer = torch.optim.Adam(auto.parameters(),lr=auto_LEARNING_RATE)
+        auto_optimizer = torch.optim.Adam(auto.parameters(),lr=AUTO_LEARNING_RATE)
         auto_optimizer.step()
         auto_optimizer.zero_grad()
 
