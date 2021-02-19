@@ -12,6 +12,6 @@ ITEM_EMBEDDING_DIM = 16
 
 BATCH_SIZE = 1000
 
-TRAIN_DATA_FILE = "preprocessed_train_data.txt" #"./data/preprocessed_train_data.txt"
-TEST_DATA_FILE = "preprocessed_test_data.txt" #"./data/preprocessed_test_data.txt"
-PRODUCT_IMAGE_DIR = "product_images" #"./data/product_images"
+TRAIN_DATA_FILE = "preprocessed_train_data.txt" # "./data/preprocessed_train_data.txt"
+TEST_DATA_FILE = "preprocessed_test_data.txt" # "./data/preprocessed_test_data.txt"
+PRODUCT_IMAGE_DIR = "product_images" # "./data/product_images"
