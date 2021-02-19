@@ -38,3 +38,4 @@ if __name__=="__main__":
 	with torch.no_grad():
     	reconstructed_images = auto(torch.tensor(original_images)).cpu().numpy()
 	visualize_reconstruction(original_images=original_images, noisy_images=None, reconstructed_images=reconstructed_images)
+
