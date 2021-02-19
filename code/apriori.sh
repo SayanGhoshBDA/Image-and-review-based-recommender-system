@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # downloading data
 gdown --id 1UwRWoCKUvhwo8N-6MKa6vJNri6QN2nM-
 gdown --id 1BM_CPc1XEj1KxJ5Dz5Y2LHi2tkw-ogfp
