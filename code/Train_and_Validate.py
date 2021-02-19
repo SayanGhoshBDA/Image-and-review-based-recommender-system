@@ -34,7 +34,7 @@ model = Compound_Model(NUM_USERS, NUM_ITEMS, USER_EMBEDDING_DIM, ITEM_EMBEDDING_
 auto_criterion = Custom_Loss_for_Autoencoder()
 criterion = Custom_Loss(0.5)
 
-text_encoder = AlbertForPreTraining.from_pretrained("albert-base-v2").to(device)
+text_encoder = AlbertForSequenceClassification.from_pretrained("albert-base-v2").to(device)
 for param in text_encoder.parameters():
     param.requires_grad = False
 
