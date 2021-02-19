@@ -11,6 +11,9 @@ USER_EMBEDDING_DIM = 16
 ITEM_EMBEDDING_DIM = 16
 
 BATCH_SIZE = 1000
+AUTO_LEARNING_RATE = 12e-5
+LEARNING_RATE = 6e-5
+NUM_EPOCHS = 30
 
 TRAIN_DATA_FILE = "preprocessed_train_data.txt" # "./data/preprocessed_train_data.txt"
 TEST_DATA_FILE = "preprocessed_test_data.txt" # "./data/preprocessed_test_data.txt"
