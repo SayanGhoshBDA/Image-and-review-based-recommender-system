@@ -51,3 +51,6 @@ class CustomDataset(Dataset):
             attention_mask = tokens_info["attention_mask"][0]
             return user_id, item_id, image, torch.tensor(integer_sequence), torch.tensor(attention_mask), torch.tensor((rating - 3.0)/2.0, dtype=torch.float32)
         return image
+
+    
+    
