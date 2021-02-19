@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 # downloading data
 gdown --id 1UwRWoCKUvhwo8N-6MKa6vJNri6QN2nM-
