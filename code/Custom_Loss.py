@@ -15,3 +15,5 @@ class Custom_Loss(nn.Module):
         l1 = self.mse1(predicted_ratings, actual_ratings)
         l2 = self.mse2(predicted_text_embedding, actual_text_embedding)
         return self.lambda_*l1 + (1 - self.lambda_)*l2
+
+    
