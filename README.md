@@ -1,5 +1,19 @@
 # Image-and-review-based-recommender-system
-This repository is created as a part of my ML2 course work.
+This repository is created as a part of my ML2 course work.  The moto of this work is to build a recommender system making use of the product images, and reviews and ratings given by customers.
+
+
+### Contents:
+1.  README.md
+2.  Report.pdf
+3.  'code' folder containing all relevent python and shell scripts
+4.  'sample data' folder containing a few examples of pre-processed train and test data
+5.  'model weights' folder containing saved weights of trained model
+
+
+### Requirements:
+1.  Python (version=3.6.9)
+2.  Pytorch (cuda version >= 1.7.0)
+3.  gdown
 
 
 ### Steps to train a rating prediction model:
