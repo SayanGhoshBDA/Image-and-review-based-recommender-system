@@ -24,11 +24,11 @@ def parse(path):
 
 
 # parsing interaction data
-interaction_data = parse("./data/AMAZON_FASHION.json.gz")
+interaction_data = parse("AMAZON_FASHION.json.gz")
 open(os.getcwd()+"/data/interaction_data.txt","w").write(str(interaction_data))
 
 # parsing metadata
-product_metadata = parse("./data/meta_AMAZON_FASHION.json.gz")
+product_metadata = parse("meta_AMAZON_FASHION.json.gz")
 open(os.getcwd()+"/data/product_metadata.txt","w").write(str(product_metadata))
 
 
