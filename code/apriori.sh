@@ -12,6 +12,7 @@ git clone https://github.com/Po-Hsun-Su/pytorch-ssim.git
 cp -r pytorch-ssim/pytorch_ssim/ ./
 
 # installing few modules
+pip install importlib-metadata
 pip install transformers
 pip install pytorch_pretrained_bert
 pip install sentencepiece
