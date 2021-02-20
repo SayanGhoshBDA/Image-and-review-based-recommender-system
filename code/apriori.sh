@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# downloading data
+# downloading raw data
+wget http://deepyeti.ucsd.edu/jianmo/amazon/categoryFiles/AMAZON_FASHION.json.gz
+wget http://deepyeti.ucsd.edu/jianmo/amazon/metaFiles/meta_AMAZON_FASHION.json.gz
+
+# downloading preprocessed data
 gdown --id 1UwRWoCKUvhwo8N-6MKa6vJNri6QN2nM-
 gdown --id 1BM_CPc1XEj1KxJ5Dz5Y2LHi2tkw-ogfp
 gdown --id 1X0Iwb5bT-6g0-j3WW0sY55d0qbq6sfw4
