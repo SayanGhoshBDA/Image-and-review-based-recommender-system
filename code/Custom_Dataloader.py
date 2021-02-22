@@ -44,6 +44,8 @@ class CustomDataset(Dataset):
         filename = f"{self.image_dir_path}/P{item_id:08d}/P{item_id:08d}_{np.random.randint(0,self.item_id__image_count__map[item_id]):02d}.png"
         image = self.parse_image(filename)
         if not self.is_train:
+            if self.is_autoencoder:
+                return image
             return user_id, item_id, image, torch.tensor((rating - 3.0)/2.0, dtype=torch.float32)
         if not self.is_autoencoder:
             tokens_info=self.tokenizer([str(review),self.hacker_string],padding=True,max_length=NUM_WORDS+2,truncation=True)
