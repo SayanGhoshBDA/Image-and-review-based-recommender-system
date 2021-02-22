@@ -7,7 +7,6 @@ This repository is created as a part of my ML2 course work.  The moto of this wo
 2.  Report.pdf
 3.  'code' folder containing all relevent python and shell scripts
 4.  'sample data' folder containing a few examples of pre-processed train and test data
-5.  'model weights' folder containing saved weights of trained model
 
 
 ### Requirements:
