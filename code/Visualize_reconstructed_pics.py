@@ -34,7 +34,7 @@ if __name__=="__main__":
 	check_point = torch.load("autoencoder.pth", map_location="cpu")
 	auto = Autoencoder()
 	auto.load_state_dict(check_point)
-	original_images = np.array([val_dataset.__getitem__(idx).numpy() for idx in np.random.choice(np.arange(len(dataset)), 100])
+	original_images = np.array([val_dataset.__getitem__(idx).numpy() for idx in np.random.choice(np.arange(len(dataset)), 100)])
 	with torch.no_grad():
     	reconstructed_images = auto(torch.tensor(original_images)).cpu().numpy()
 	visualize_reconstruction(original_images=original_images, noisy_images=None, reconstructed_images=reconstructed_images)
