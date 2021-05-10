@@ -1,5 +1,5 @@
 # Image-and-review-based-recommender-system
-This repository is created as a part of my ML2 course work.  The moto of this work is to build a recommender system making use of the product images, and reviews and ratings given by customers.
+This repository is created as a part of my ML2 course work.  The motto of this work is to build a recommender system making use of the product images, and reviews and ratings given by customers.
 
 
 ### Contents:
